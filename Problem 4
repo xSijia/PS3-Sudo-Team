@@ -1,0 +1,27 @@
+f = open('CO-OPS__8729108__wl.csv', 'r');
+f.readline() #skip header line of file
+previous = ""
+count = 0
+for line in f:
+    list = line.split(',')
+    #print list[1]
+    count = count+1
+    #list[0] = date/time
+    #list[1] = water level
+    #print list
+    #print "previous value =",previous
+    if list[1]:
+        #print list[1]
+        if float(list[1]) > 5:
+            if True:
+                print ('WARNING: Water level greater than 5')
+        if count > 1:
+            try:
+                if (float(list[1]) - float(previous))>0.25:
+                    print ('WARNING: Water level has increased by more than 0.25 since last reading')
+            except:
+                print ('No previous reading available')
+    else:
+        print ('WARNING: There is no reading for water level')
+    previous = list[1]
+f.close()
