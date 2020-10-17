@@ -1,5 +1,5 @@
 # PS3-Sudo-Team
-This is the repository for Assignment Problem Set III of BSC4452
+This is the repository for Assignment Problem Set III of BSC4452 **the Problem_Set_3_Answer.ipynbb is the full assighnment** 
 
 Members:
 Sijia Li
@@ -11,7 +11,6 @@ Moni Qiande
 
 Problem Set 3:
 This should be turned in as a public github repository (for this each person will create their own repository rather than using GitHub Classrooms) with your code either in Python scripts or Jupyter Notebooks.
-**the file ps3_all_parts.ipynb is the full assighnment** 
  
 
 You may work on this in groups or on your own. If you work as a group, you should create the group in Canvas so that you are not assigned to review another submission from your group.
