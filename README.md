@@ -1,5 +1,5 @@
 # PS3-Sudo-Team
-This is the repository for Assignment Problem Set III of BSC4452 **the Problem_Set_3_Answer.ipynbb is the full assighnment** 
+This is the repository for Assignment Problem Set III of BSC4452 **the Problem_Set_3_Answer.ipynb is the full assighnment** 
 
 Members:
 Sijia Li
